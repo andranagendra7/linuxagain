@@ -1,0 +1,368 @@
+    1  cd /root/
+    2  ls
+    3  cd devops/
+    4  ls
+    5  cat file.sh 
+    6  hostname nag
+    7  hostname
+    8  service ssh status
+    9  service ssh start
+   10  systemctl start ssh
+   11  sudo 
+   12  ping google.com
+   13  systemctl start ssh
+   14  service sshd status
+   15  ifconfig
+   16  systemctl start
+   17  shutdown
+   18  shutdown -h now
+   19  hostname devops
+   20  ping google.com
+   21  su root
+   22  cat /etc/passwd
+   23  ls
+   24  pwd
+   25  sudo useradd devops
+   26  password devops
+   27  passwd devops
+   28  clear
+   29  mkdir devops
+   30  cd devops/
+   31  ls
+   32  yum install git -y
+   33  git --version
+   34  git init
+   35  ls -a
+   36  ls -la
+   37  clear
+   38  ls
+   39  claer
+   40  clear
+   41  ls
+   42  ping google.com
+   43  git
+   44  rpm -qa git
+   45  vi file.sh
+   46  ls
+   47  sh file.sh 
+   48  cat file.sh 
+   49  vi file.sh 
+   50  pwd
+   51  ls
+   52  pwd
+   53  pwd | tee >>filehistory
+   54  ls
+   55  cat filehistory 
+   56  pwd | tee filehistory
+   57  cat filehistory 
+   58  ls | tee filehistory 
+   59  cat filehistory 
+   60  ls | tee >filehistory 
+   61  cat filehistory 
+   62  date | tee filehistory 
+   63  cat filehistory 
+   64  cal | tee >>filehistory 
+   65  cat filehistory 
+   66  who | tee >>filehistory 
+   67  whomai
+   68  whoami
+   69  whoami | tee >>filehistory 
+   70  pwd
+   71  ls
+   72  cd /root/devops/
+   73  cd ..
+   74  cd ~
+   75  pwd
+   76  cd 
+   77  cd /
+   78  pwd
+   79  cd ~
+   80  pwd
+   81  cd /home/
+   82  ls
+   83  cd devops/
+   84  ls
+   85  ls -a
+   86  cd /root/
+   87  ls
+   88  cd devops/
+   89  pwd
+   90  cd ../
+   91  cd devops/
+   92  cd /opt/
+   93  ls
+   94  cd rh/
+   95  ls
+   96  ls -a
+   97  cd /root/
+   98  ls -a
+   99  cd /root/
+  100  cd /
+  101  ls -a
+  102  cd /root/
+  103  ssh-keygen
+  104  cd .ssh/
+  105  ls -a
+  106  cat id_rsa.pub 
+  107  ls -a
+  108  cd
+  109  ls -l
+  110  ls -lh
+  111  ls -lhS
+  112  ls -d
+  113  ls -d */
+  114  ls -n
+  115  ls -g
+  116  ls -l
+  117  ls -u
+  118  ls -li
+  119  ls -p
+  120  ls -P
+  121  ls -p
+  122  ls -r
+  123  ls -R
+  124  ls -iX
+  125  ls -i
+  126  ls -lt
+  127  ls ~
+  128  ls ../
+  129  ls ../bin/
+  130  clear
+  131  ls --version
+  132  mkdir git/git
+  133  mkdir git
+  134  mkdir git/git
+  135  mkdir git/git/git
+  136  mkdir dev jenkins ansible
+  137  ls
+  138  mkdir dev jenkins ansible
+  139  mkdir -v dev jenkins ansible
+  140  mkdir -v dev1
+  141  mkdir -p /git/git
+  142  mkdir  /ram/ram
+  143  mkdir -p  /ram/ram
+  144  rmdir -p  /ram/ram
+  145  cd git/git/
+  146  touch git
+  147  cd ../..
+  148  rmdir -p  git/git/
+  149  rmdir -r  git/git/
+  150  rmdir -R  git/git/
+  151  rm -R  git/git/
+  152  rm -fR  /git/git/
+  153  rm -fR  /ram/ram
+  154  ls
+  155  cd git/
+  156  ls
+  157  mkdir file
+  158  cd ..
+  159  rmdir -p git
+  160  rmdir -p git/file/
+  161  touch file file1 file2 file3 file4
+  162  ls 
+  163  ls -l
+  164  file file
+  165  rm file
+  166  cat >>file1 
+  167  file file1
+  168  cat  file1
+  169  history
+  170  history | grep allcommands.txt
+  171  ll
+  172  ls 
+  173  ls -a
+  174  history >>allcommands.txt
+    1  cd /root/
+    2  ls
+    3  cd devops/
+    4  ls
+    5  cat file.sh 
+    6  hostname nag
+    7  hostname
+    8  service ssh status
+    9  service ssh start
+   10  systemctl start ssh
+   11  sudo 
+   12  ping google.com
+   13  systemctl start ssh
+   14  service sshd status
+   15  ifconfig
+   16  systemctl start
+   17  shutdown
+   18  shutdown -h now
+   19  hostname devops
+   20  ping google.com
+   21  su root
+   22  cat /etc/passwd
+   23  ls
+   24  pwd
+   25  sudo useradd devops
+   26  password devops
+   27  passwd devops
+   28  clear
+   29  mkdir devops
+   30  cd devops/
+   31  ls
+   32  yum install git -y
+   33  git --version
+   34  git init
+   35  ls -a
+   36  ls -la
+   37  clear
+   38  ls
+   39  claer
+   40  clear
+   41  ls
+   42  ping google.com
+   43  git
+   44  rpm -qa git
+   45  vi file.sh
+   46  ls
+   47  sh file.sh 
+   48  cat file.sh 
+   49  vi file.sh 
+   50  pwd
+   51  ls
+   52  pwd
+   53  pwd | tee >>filehistory
+   54  ls
+   55  cat filehistory 
+   56  pwd | tee filehistory
+   57  cat filehistory 
+   58  ls | tee filehistory 
+   59  cat filehistory 
+   60  ls | tee >filehistory 
+   61  cat filehistory 
+   62  date | tee filehistory 
+   63  cat filehistory 
+   64  cal | tee >>filehistory 
+   65  cat filehistory 
+   66  who | tee >>filehistory 
+   67  whomai
+   68  whoami
+   69  whoami | tee >>filehistory 
+   70  pwd
+   71  ls
+   72  cd /root/devops/
+   73  cd ..
+   74  cd ~
+   75  pwd
+   76  cd 
+   77  cd /
+   78  pwd
+   79  cd ~
+   80  pwd
+   81  cd /home/
+   82  ls
+   83  cd devops/
+   84  ls
+   85  ls -a
+   86  cd /root/
+   87  ls
+   88  cd devops/
+   89  pwd
+   90  cd ../
+   91  cd devops/
+   92  cd /opt/
+   93  ls
+   94  cd rh/
+   95  ls
+   96  ls -a
+   97  cd /root/
+   98  ls -a
+   99  cd /root/
+  100  cd /
+  101  ls -a
+  102  cd /root/
+  103  ssh-keygen
+  104  cd .ssh/
+  105  ls -a
+  106  cat id_rsa.pub 
+  107  ls -a
+  108  cd
+  109  ls -l
+  110  ls -lh
+  111  ls -lhS
+  112  ls -d
+  113  ls -d */
+  114  ls -n
+  115  ls -g
+  116  ls -l
+  117  ls -u
+  118  ls -li
+  119  ls -p
+  120  ls -P
+  121  ls -p
+  122  ls -r
+  123  ls -R
+  124  ls -iX
+  125  ls -i
+  126  ls -lt
+  127  ls ~
+  128  ls ../
+  129  ls ../bin/
+  130  clear
+  131  ls --version
+  132  mkdir git/git
+  133  mkdir git
+  134  mkdir git/git
+  135  mkdir git/git/git
+  136  mkdir dev jenkins ansible
+  137  ls
+  138  mkdir dev jenkins ansible
+  139  mkdir -v dev jenkins ansible
+  140  mkdir -v dev1
+  141  mkdir -p /git/git
+  142  mkdir  /ram/ram
+  143  mkdir -p  /ram/ram
+  144  rmdir -p  /ram/ram
+  145  cd git/git/
+  146  touch git
+  147  cd ../..
+  148  rmdir -p  git/git/
+  149  rmdir -r  git/git/
+  150  rmdir -R  git/git/
+  151  rm -R  git/git/
+  152  rm -fR  /git/git/
+  153  rm -fR  /ram/ram
+  154  ls
+  155  cd git/
+  156  ls
+  157  mkdir file
+  158  cd ..
+  159  rmdir -p git
+  160  rmdir -p git/file/
+  161  touch file file1 file2 file3 file4
+  162  ls 
+  163  ls -l
+  164  file file
+  165  rm file
+  166  cat >>file1 
+  167  file file1
+  168  cat  file1
+  169  history
+  170  history | grep allcommands.txt
+  171  ll
+  172  ls 
+  173  ls -a
+  174  history >>allcommands.txt
+  175  ls
+  176  git -v
+  177  git --version
+  178  mv allcommands.txt devops/
+  179  ls
+  180  cd devops/
+  181  ls
+  182  git status
+  183  git config --help
+  184  git config --global --username andranagendra7 --email andranagendra720@gmail.com
+  185  git config --global --user andranagendra7 --email andranagendra720@gmail.com
+  186  clear
+  187  git config --global username andranagendra7 email andranagendra720@gmail.com
+  188  git config --global user.name andranagendra7 user.email andranagendra720@gmail.com
+  189  git config --global user.name "andranagendra7" user.email "andranagendra720@gmail.com"
+  190  git config --global user.name "andranagendra7"
+  191  git config --global user.email "andranagendra720@gmail.com"
+  192  git config --global --list
+  193  history
+  194  history | tee >> allcommands.txt 
